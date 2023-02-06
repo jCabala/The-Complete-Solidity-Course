@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "numbers",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"4.test-storage-arrays.sol": "TestStorageArrays"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"4.test-storage-arrays.sol": {
+			"keccak256": "0x033c05b01a554be7202960b4288111710fb42b58cc6cd191f664de328379d0b6",
+			"urls": [
+				"bzz-raw://bb57984462304e6780f03cf8b3851f2eec797e93fdd592ae5dd90ef057e72c52",
+				"dweb:/ipfs/QmWQXpUvLvrESci7isGpigTR4UVxj6euztGBhsGdiMnsXU"
+			]
+		}
+	},
+	"version": 1
+}
