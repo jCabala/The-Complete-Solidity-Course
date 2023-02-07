@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBlockNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"11.global-variables.sol": "GV"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"11.global-variables.sol": {
+			"keccak256": "0x936d3d254f44ad89cedf0db620b45fa5a647644d58dd8e34ef9dde04b859a3ca",
+			"urls": [
+				"bzz-raw://34808345d148e8656cb7f7fb1e15bf75da5d06429c19f32323d8274e21e1c13f",
+				"dweb:/ipfs/QmdajiPjeYTAHz2NZDYhHD1xiSrUXpiMHFPBrMCFpa2puQ"
+			]
+		}
+	},
+	"version": 1
+}

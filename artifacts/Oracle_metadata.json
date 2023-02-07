@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_rand",
+						"type": "uint256"
+					}
+				],
+				"name": "feedRand",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rand",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"12.oracle-random-number-generator.sol": "Oracle"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"12.oracle-random-number-generator.sol": {
+			"keccak256": "0xd9e6b4f40c011c5fac631485c1bd74fba2ceff31efaefd1e7c729bd447618c20",
+			"urls": [
+				"bzz-raw://a3209e05eddbc0135e6246204157e55f80ef7d58d4469920ef018f9570b6e5ed",
+				"dweb:/ipfs/QmZ3SBwD4w5KHWpQuEwY2Lo8Cg6YcsB5t4tgqLHYkBuXAU"
+			]
+		}
+	},
+	"version": 1
+}

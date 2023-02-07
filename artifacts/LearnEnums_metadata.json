@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getChoice",
+				"outputs": [
+					{
+						"internalType": "enum LearnEnums.frenchFriesSize",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setSmall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"8.learn-enums.sol": "LearnEnums"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"8.learn-enums.sol": {
+			"keccak256": "0xe3499a0e3cf8e4d74cff9ef55be6e27bfaa1f810446bee562a09fd773f3bb9ec",
+			"urls": [
+				"bzz-raw://212ea6db6e9b8a8cd22e05ffcbf6b38092c4a83b448b394a48d6d507df08d4d3",
+				"dweb:/ipfs/Qmd3jiEa3P15ke2nEzyKt82ApWe8nsYsggrQkoL91E7uy9"
+			]
+		}
+	},
+	"version": 1
+}
